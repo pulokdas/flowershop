@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.section1 {
+    display: flex;
+    background: rgb(229, 84, 115, 0.10);
+    max-height: 100vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cover-image {
+    width: 30vw;
+    height: 80vh;
+    margin-top: 50px;
+    margin-right: 60px;
+
+}
+
+.cover {
+
+    width: 30vw;
+    margin-left: 60px;
+}
+
+.cover-title {
+    font-size: 50px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    cursor: default;
+}
+
+.cover-description {
+    text-align: justify;
+    margin-bottom: 20px;
+    cursor: default;
+}
+
+.btn {
+    padding: 10px;
+    background: rgb(229, 84, 115);
+    color: white;
+    border: none;
+    border-radius: 7px;
+}
+
+
+.section2>h1 {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.section2>p {
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.feature-photos {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.feature-photos p {
+    text-align: center;
+    margin-top: 30px;
+    text-decoration: underline;
+}
+
+.feature-photo {
+    margin: 20px;
+    margin-top: 50px;
+}
+
+.feature-photo img {
+
+
+    height: 400px;
+    width: 250px;
+    padding: 60px;
+    padding-bottom: 0;
+
+
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+#photo1 {
+    background: rgb(229, 84, 115, 0.10);
+}
+
+#photo2 {
+    background: rgb(5, 151, 160, 0.15);
+}
+
+#photo3 {
+    background: rgb(71, 125, 17, 0.15);
+}
+
+.section3 {
+
+
+    background: rgb(39, 39, 39, 0.08);
+    margin: 100px 160px;
+    padding: 60px;
+
+
+}
+
+
+.section3>div {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.section3-item {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.cover-title2 {
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    cursor: default;
+    text-align: center;
+}
+
+#off {
+    color: rgb(229, 84, 115);
+}
+
+.cover2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.insta-photo img {
+    width: 17vw;
+    margin: 20px;
+    margin-top: 40px;
+}
+
+.form {
+    margin: 165px;
+    background-image: url("/Flower\ Asset/Rectangle 9.png");
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form p {
+    margin: 30px;
+    margin-top: 20px;
+}
+
+#input-field {
+    width: 400px;
+    height: 10px;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+footer {
+    background: black;
+    height: 40vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#Flower {
+    color: rgb(229, 84, 115);
+}
+
+#p1 {
+    margin: 20px;
+    text-align: center;
+    color: rgb(255, 255, 255, 0.90);
+}
+
+#p2 {
+    margin: 20px;
+    text-align: center;
+    color: rgb(255, 255, 255, 0.40);
+}
+
+.about-us {
+    display: flex;
+    align-items: center;
+    max-height: 40vh;
+    margin: 20vh;
+    justify-content: space-around;
+}
+
+.about-us img {
+    width: 15vw;
+}
+
+.about-us div {
+    width: 40vw;
+    text-align: justify;
+}
